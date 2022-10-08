@@ -6,8 +6,8 @@ def substract(a, b):
     pass
 
 
-def multiply(a, b):
-    pass
+def multiply(a: int, b: int) -> int:
+    return a * b
 
 
 def divide(a, b):
