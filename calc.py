@@ -1,18 +1,9 @@
-from typing import Union
+def add(a, b):
+    pass
 
 
-def add(a: float, b: float) -> Union[float, int]:
-    return a + b
-
-
-def substract(a: float, b: float) -> Union[float, int]:
-    """
-    To będzie odejmować
-    :param a:
-    :param b:
-    :return:
-    """
-    return a - b
+def substract(a, b):
+    pass
 
 
 def multiply(a: int, b: int) -> int:
