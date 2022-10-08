@@ -7,10 +7,10 @@ def add(a: float, b: float) -> Union[float, int]:
 
 def substract(a: float, b: float) -> Union[float, int]:
     """
-
+    To będzie odejmować
     :param a:
     :param b:
-    :return: 
+    :return:
     """
     return a - b
 
