@@ -6,6 +6,12 @@ def add(a: float, b: float) -> Union[float, int]:
 
 
 def substract(a: float, b: float) -> Union[float, int]:
+    """
+
+    :param a:
+    :param b:
+    :return: 
+    """
     return a - b
 
 
