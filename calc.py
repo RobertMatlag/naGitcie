@@ -1,9 +1,12 @@
-def add(a: int , b: int) -> int:
+from typing import Union
+
+
+def add(a: float, b: float) -> Union[float, int]:
     return a + b
 
 
-def substract(a, b):
-    pass
+def substract(a: float, b: float) -> Union[float, int]:
+    return a - b
 
 
 def multiply(a, b):
