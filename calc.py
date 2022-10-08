@@ -11,4 +11,9 @@ def multiply(a, b):
 
 
 def divide(a: float, b: float) -> float:
+    """
+    a: pierwsza liczba
+    b: druga liczba
+    return: wynik dzielenia
+    """
     return a / b
